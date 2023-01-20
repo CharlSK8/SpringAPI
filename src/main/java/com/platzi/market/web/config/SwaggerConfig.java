@@ -9,8 +9,8 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * We're telling Swagger to scan the package com.platzi.market.web.controller for any classes annotated with
- * @RestController
+ * Le estamos diciendo a Swagger que escanee el paquete com.platzi.market.web.controller en busca de cualquier clase
+ * anotada con @RestController
  */
 @Configuration
 @EnableSwagger2
