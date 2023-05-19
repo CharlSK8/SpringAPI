@@ -9,7 +9,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git 'https://github.com/CharlSK8/SpringAPI.git'
+                    git branch: 'main', url: 'https://github.com/CharlSK8/SpringAPI.git'
                 }
             }
         }
